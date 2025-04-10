@@ -22,6 +22,11 @@ public class ProductService {
        return product;
     }
     //READ
+
+    public List<Product> getProductList() {
+        return productList;
+    }
+
     //UPDATE
     //DELETE
 }
